@@ -1,6 +1,6 @@
 let counter = 0;
 
-const socket = io({
+const socket = io("https://chat-sel3.onrender.com",{
     auth: {
         serverOffset: '0'
     },
